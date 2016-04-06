@@ -1,2 +1,3 @@
 Within R-studio  source('~/r-lessons/test1.r')
+Or within shell Rscript --no-restore --no-save test1.R
 
