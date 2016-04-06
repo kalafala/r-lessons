@@ -13,13 +13,13 @@ var express = require('express'),
 	app = express(),
 	jobs = 4,
 	port = process.env.PORT || 3003,
-	opts = { cwd: '/Users/kerimkalafala/R-lessons',
+	opts = { cwd: '.',
         	 env: process.env
            	};
 
 function setup_R_job(the_opts, done) {
 	var RCall = ['--no-restore','--no-save','test1.R'];
-	var R = spawn('/usr/local/bin/Rscript', RCall, the_opts);
+	var R = spawn('Rscript', RCall, the_opts);
 	R.on('exit',function(code) {
 		console.log('Received exit code: '+code);
 	});
