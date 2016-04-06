@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kalafala/r-lessons#readme",
   "dependencies": {
-    "async": "^2.0.0-rc.2"
+    "async": "^2.0.0-rc.2",
+    "express": "^4.13.4"
   }
 }
