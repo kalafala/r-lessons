@@ -10,3 +10,5 @@ z=x^2
 print(z)
 z=x^1/2
 print(z)
+
+Sys.sleep(10);
